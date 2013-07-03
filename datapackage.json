@@ -1,0 +1,524 @@
+{
+  "name": "csi_2008-2010",
+  "title": "CIVICUS Civil Society Index (CSI) 2008-2010",
+  "description": "Civil Society Index For more information please visit: https://civicus.org/what-we-do-126/csi/classic-csi or contact info@civicus.org",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "keywords": [ "CSI", "Civil Society Index", "Index", "CIVICUS" ],
+  "version": "2011",
+  "last_updated": "2011-01-14",
+  "sources": [{
+    "name": "CIVICUS Civil Society Index (CSI) Methodology",
+    "web": "https://civicus.org/what-we-do-126/csi/classic-csi/2012-09-04-11-11-40/csi-methodology"
+  }],
+  "resources": [
+    {
+      "path": "csi_2008-210_33_countries.csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "Country Name",
+            "type": "string"
+          },
+          {
+            "id": "Country Id",
+            "type": "string"
+          },
+          {
+            "id": "Region",
+            "type": "number"
+          },
+          {
+            "id": "1) Dimension: Civic Engagement",
+            "description": "",
+            "type": "number"
+          },
+          {
+            "id": "1.1",
+            "description": "Extent of socially-based engagement",
+            "type": "number"
+          },
+          {
+            "id": "1.1.1",
+            "description": "Social membership 1",
+            "type": "number"
+          },
+          {
+            "id": "1.1.2",
+            "description": "Social volunteering 1",
+            "type": "number"
+          },
+          {
+            "id": "1.1.3",
+            "description": "Community engagement 1",
+            "type": "number"
+          },
+          {
+            "id": "1.2",
+            "description": "Depth of socially-based engagement",
+            "type": "number"
+          },
+          {
+            "id": "1.2.1",
+            "description": "Social membership 2",
+            "type": "number"
+          },
+          {
+            "id": "1.2.2",
+            "description": "Social volunteering 2",
+            "type": "number"
+          },
+          {
+            "id": "1.2.3",
+            "description": "Community engagement 2",
+            "type": "number"
+          },
+          {
+            "id": "1.3",
+            "description": "Diversity of socially-based engagement",
+            "type": "number"
+          },
+          {
+            "id": "1.3.1",
+            "description": "Diversity of socially-based engagement",
+            "type": "number"
+          },
+          {
+            "id": "1.4",
+            "description": "Extent of political engagement",
+            "type": "number"
+          },
+          {
+            "id": "1.4.1",
+            "description": "Political membership 1",
+            "type": "number"
+          },
+          {
+            "id": "1.4.2",
+            "description": "Political volunteering 1",
+            "type": "number"
+          },
+          {
+            "id": "1.4.3",
+            "description": "Individual activism 1",
+            "type": "number"
+          },
+          {
+            "id": "1.5",
+            "description": "Depth of political engagement",
+            "type": "number"
+          },
+          {
+            "id": "1.5.1",
+            "description": "Political membership 2",
+            "type": "number"
+          },
+          {
+            "id": "1.5.2",
+            "description": "Political volunteering 2",
+            "type": "number"
+          },
+          {
+            "id": "1.5.3",
+            "description": "Individual activism 2",
+            "type": "number"
+          },
+          {
+            "id": "1.6",
+            "description": "Diversity of political engagement",
+            "type": "number"
+          },
+          {
+            "id": "1.6.1",
+            "description": "Diversity of political engagement",
+            "type": "number"
+          },
+          {
+            "id": "2) Dimension: Level of organisation",
+            "description": "",
+            "type": "number"
+          },
+          {
+            "id": "2.1",
+            "description": "Internal governance",
+            "type": "number"
+          },
+          {
+            "id": "2.1.1",
+            "description": "Management",
+            "type": "number"
+          },
+          {
+            "id": "2.2",
+            "description": "Infrastructure",
+            "type": "number"
+          },
+          {
+            "id": "2.2.1",
+            "description": "Support organizations",
+            "type": "number"
+          },
+          {
+            "id": "2.3",
+            "description": "Sectoral communication",
+            "type": "number"
+          },
+          {
+            "id": "2.3.1",
+            "description": "Peer-to-peer communication 1",
+            "type": "number"
+          },
+          {
+            "id": "2.3.2",
+            "description": "Peer-to-peer communication 2",
+            "type": "number"
+          },
+          {
+            "id": "2.4",
+            "description": "Human resources",
+            "type": "number"
+          },
+          {
+            "id": "2.4.1",
+            "description": "Sustainability of HR",
+            "type": "number"
+          },
+          {
+            "id": "2.5",
+            "description": "Financial and technological resources",
+            "type": "number"
+          },
+          {
+            "id": "2.5.1",
+            "description": "Financial sustainability",
+            "type": "number"
+          },
+          {
+            "id": "2.5.2",
+            "description": "Technological resources",
+            "type": "number"
+          },
+          {
+            "id": "2.6",
+            "description": "International linkages",
+            "type": "number"
+          },
+          {
+            "id": "2.6.1",
+            "description": "International linkages",
+            "type": "number"
+          },
+          {
+            "id": "3) Dimension: Practice of Values",
+            "description": "",
+            "type": "number"
+          },
+          {
+            "id": "3.1",
+            "description": "Democratic decision-making governance",
+            "type": "number"
+          },
+          {
+            "id": "3.1.1",
+            "description": "Decision-making",
+            "type": "number"
+          },
+          {
+            "id": "3.2",
+            "description": "Labour regulations",
+            "type": "number"
+          },
+          {
+            "id": "3.2.1",
+            "description": "Equal opportunities",
+            "type": "number"
+          },
+          {
+            "id": "3.2.2",
+            "description": "Members of labour unions",
+            "type": "number"
+          },
+          {
+            "id": "3.2.3",
+            "description": "Labour rights tranings",
+            "type": "number"
+          },
+          {
+            "id": "3.2.4",
+            "description": "Publicly available policy for labour standards",
+            "type": "number"
+          },
+          {
+            "id": "3.3",
+            "description": "Code of conduct and transparency",
+            "type": "number"
+          },
+          {
+            "id": "3.3.1",
+            "description": "Publicly available code of conduct",
+            "type": "number"
+          },
+          {
+            "id": "3.3.2",
+            "description": "Transparency",
+            "type": "number"
+          },
+          {
+            "id": "3.4",
+            "description": "Environmental standards",
+            "type": "number"
+          },
+          {
+            "id": "3.4.1",
+            "description": "Environmental standards",
+            "type": "number"
+          },
+          {
+            "id": "3.5",
+            "description": "Perception of values in civil society as a whole",
+            "type": "number"
+          },
+          {
+            "id": "3.5.1",
+            "description": "Perceived non-violence",
+            "type": "number"
+          },
+          {
+            "id": "3.5.2",
+            "description": "Perceived internal democracy",
+            "type": "number"
+          },
+          {
+            "id": "3.5.3",
+            "description": "Perceived levels of corruption",
+            "type": "number"
+          },
+          {
+            "id": "3.5.4",
+            "description": "Perceived intolerance",
+            "type": "number"
+          },
+          {
+            "id": "3.5.5",
+            "description": "Perceived weight of intolerant groups",
+            "type": "number"
+          },
+          {
+            "id": "3.5.6",
+            "description": "Perceived promotion on non-violence and peace",
+            "type": "number"
+          },
+          {
+            "id": "4) Dimension: Perception of Impact",
+            "description": "",
+            "type": "number"
+          },
+          {
+            "id": "4.1",
+            "description": "Responsiveness (internal perception)",
+            "type": "number"
+          },
+          {
+            "id": "4.1.1",
+            "description": "Impact on social concern 1",
+            "type": "number"
+          },
+          {
+            "id": "4.1.2",
+            "description": "Impact on social concern 2",
+            "type": "number"
+          },
+          {
+            "id": "4.2",
+            "description": "Social Impact (internal perception)",
+            "type": "number"
+          },
+          {
+            "id": "4.2.1",
+            "description": "General social impact",
+            "type": "number"
+          },
+          {
+            "id": "4.2.2",
+            "description": "Social impact of own organisation",
+            "type": "number"
+          },
+          {
+            "id": "4.3",
+            "description": "Policy Impact (internal perception)",
+            "type": "number"
+          },
+          {
+            "id": "4.3.1",
+            "description": "General policy impact",
+            "type": "number"
+          },
+          {
+            "id": "4.3.2",
+            "description": "Policy activity of own organisation",
+            "type": "number"
+          },
+          {
+            "id": "4.3.3",
+            "description": "Policy impact of own organisation",
+            "type": "number"
+          },
+          {
+            "id": "4.4",
+            "description": "Responsiveness (external perception)",
+            "type": "number"
+          },
+          {
+            "id": "4.4.1",
+            "description": "Impact on social concern 1",
+            "type": "number"
+          },
+          {
+            "id": "4.4.2",
+            "description": "Impact on social concern 2",
+            "type": "number"
+          },
+          {
+            "id": "4.5",
+            "description": "Social Impact (external perception)",
+            "type": "number"
+          },
+          {
+            "id": "4.5.1",
+            "description": "Social impact selected concerns",
+            "type": "number"
+          },
+          {
+            "id": "4.5.2",
+            "description": "Social impact general",
+            "type": "number"
+          },
+          {
+            "id": "4.6",
+            "description": "Policy Impact (external perception)",
+            "type": "number"
+          },
+          {
+            "id": "4.6.1",
+            "description": "Policy impact specific fields 1-3",
+            "type": "number"
+          },
+          {
+            "id": "4.6.2",
+            "description": "Policy impact general",
+            "type": "number"
+          },
+          {
+            "id": "4.7",
+            "description": "Impact of CS on attitudes",
+            "type": "number"
+          },
+          {
+            "id": "4.7.1",
+            "description": "Difference in trust between civil society members and non-members",
+            "type": "number"
+          },
+          {
+            "id": "4.7.2",
+            "description": "Difference in tolerance levels between civil society members and non-members",
+            "type": "number"
+          },
+          {
+            "id": "4.7.3",
+            "description": "Difference in public spiritedness between civil society members and non-members",
+            "type": "number"
+          },
+          {
+            "id": "4.7.4",
+            "description": "Trust in civil society",
+            "type": "number"
+          },
+          {
+            "id": "5) Contextual Dimension: Environment",
+            "description": "",
+            "type": "number"
+          },
+          {
+            "id": "5.1",
+            "description": "Socio-economic context",
+            "type": "number"
+          },
+          {
+            "id": "5.1.1",
+            "description": "Basic Capabilities Index",
+            "type": "number"
+          },
+          {
+            "id": "5.1.2",
+            "description": "Corruption",
+            "type": "number"
+          },
+          {
+            "id": "5.1.3",
+            "description": "Inequality",
+            "type": "number"
+          },
+          {
+            "id": "5.1.4",
+            "description": "Economic context",
+            "type": "number"
+          },
+          {
+            "id": "5.2",
+            "description": "Socio-political context",
+            "type": "number"
+          },
+          {
+            "id": "5.2.1",
+            "description": "Political rights and freedoms",
+            "type": "number"
+          },
+          {
+            "id": "5.2.2",
+            "description": "Rule of law and personal freedoms",
+            "type": "number"
+          },
+          {
+            "id": "5.2.3",
+            "description": "Associational and organizaitonal rights",
+            "type": "number"
+          },
+          {
+            "id": "5.2.4",
+            "description": "Experience of legal framework",
+            "type": "number"
+          },
+          {
+            "id": "5.2.5",
+            "description": "State effectiveness",
+            "type": "number"
+          },
+          {
+            "id": "5.3",
+            "description": "Socio-cultural context",
+            "type": "number"
+          },
+          {
+            "id": "5.3.1",
+            "description": "Trust",
+            "type": "number"
+          },
+          {
+            "id": "5.3.2",
+            "description": "Tolerance",
+            "type": "number"
+          },
+          {
+            "id": "5.3.3",
+            "description": "Public spiritedness",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
